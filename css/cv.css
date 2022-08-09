@@ -1,0 +1,220 @@
+
+*{
+    font-family: 'Uchen', 'sans-serif';
+}
+
+[class^="container"] {
+    background-color: rgb(192, 192, 192);
+    width: 45%;
+    border-radius: 15px;
+}
+
+[class^="skill"] {
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.skill1 {
+    background-color: green;
+}
+
+.skill2 {
+    background-color: orange;
+}
+
+.skill3 {
+    background-color: orangered;
+}
+
+.c {
+    width: 85%;
+}
+
+.python {
+    width: 60%;
+}
+
+.autre {
+    width: 40%;
+}
+
+.cv-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+    background-image: linear-gradient(rgba(170, 219, 238, 0.4),  rgb(233, 246, 246)), url("../img/travail_photo.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cv-section .cv .experience,
+.cv-section .cv .competence,
+.cv-section .cv .autre-competence
+{
+    padding-left: 250px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.cv-section .cv .competence .language,
+.cv-section .cv .experience .job,
+.cv-section .cv .autre-competence .qualité
+{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 700px;
+}
+
+.cv-section .cv .competence .language .container {
+    margin-left: 130px;
+}
+
+.cv-section .cv .autre-competence .qualité .qualité-photo {
+    margin-left: 250px;
+    border-radius: 50%;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.cv-section .cv .competence .language .container1 {
+    margin-left: 90px;
+}
+
+.cv-section .cv .competence .language .container2 {
+    margin-left: 80px;
+}
+
+.cv-section .cv .competence .language .container {
+    margin-left: 130px;
+}
+
+.cv-section .cv .experience .job h5 {
+    margin-left: 100px;
+}
+
+
+.cv-section .cv .experience .description,
+.cv-section .cv .competence .description,
+.cv-section .cv .autre-competence .description
+{
+    padding-left: 900px;
+    max-width: 440px;
+    margin-top: -5px;
+    margin-bottom: 70px;
+}
+
+.cv-section .cv h1 {
+    margin: 0;
+    padding-left: 100px;
+    text-transform: uppercase;
+    font-family: 'Uchen', 'sans-serif';
+    font-size: 2vw;
+}
+
+.cv-section .experience .competence h5 {
+    padding-left: 900px;
+}
+
+#wrap {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.btn-slide2 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    background: #fdfdfd;
+    border: 2px solid #0099cc;
+    margin: 10px;
+    transition: .5s;
+}
+
+.btn-slide2 {
+    border: 2px solid #efa666;
+}
+
+
+.btn-slide2:hover {
+    background-color: #efa666;
+}
+
+.btn-slide2:hover span.circle2 {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+    color: #0099cc;
+}
+
+.btn-slide2:hover span.circle2 {
+    color: #efa666;
+}
+
+.btn-slide2:hover span.title2 {
+    left: 40px;
+    opacity: 0;
+}
+
+.btn-slide2:hover span.title-hover2 {
+    opacity: 1;
+    left: 40px;
+}
+
+.btn-slide2 span.circle2 {
+    display: block;
+    background-color: #0099cc;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.btn-slide2 span.circle2 {
+    background-color: #efa666;
+}
+
+.btn-slide2 span.title2,
+.btn-slide2 span.title-hover2 {
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #30abd5;
+    transition: .5s;
+}
+
+.btn-slide2 span.title2,
+.btn-slide2 span.title-hover2 {
+    color: #efa666;
+    left: 80px;
+}
+
+.btn-slide2 span.title-hover2 {
+    left: 80px;
+    opacity: 0;
+}
+
+.btn-slide2 span.title-hover2 {
+    color: #fff;
+}

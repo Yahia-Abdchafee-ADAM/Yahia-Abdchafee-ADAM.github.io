@@ -1,0 +1,15 @@
+.page-content .presentation-image img:hover {
+    filter: brightness(50%);
+}
+
+.page-content .presentation-image img {
+    left: 200px;
+    top: -100px;
+    position: relative;
+    width:  700px;
+    height: 700px;
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+    transition: filter 0.5s;
+}
